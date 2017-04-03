@@ -117,4 +117,18 @@
 			width: 200px;
 			margin: 0px;
 			opacity: 0;
+			margin-bottom: 30px;
+		}
+
+		.selectBtn {
+			display: inline-block;
+			width: 200px;
+			height: 40px;
+			border-radius: 5px;
+			border: 1px solid #3668a7;
+			line-height: 40px;
+			margin-right: 20px;
+			color: #3668a7;
+			cursor: pointer;
+			margin-bottom: 30px;
 		}
