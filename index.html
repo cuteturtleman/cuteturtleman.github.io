@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>사제 신카드 시뮬레이터</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="gameDiv">
+		<h2>필드</h2>
+		<br/>
+		<div id="field1">
+			<img src="god.png"/>
+			<img src="god.png"/>
+			<img src="god.png"/>
+			<img src="god.png"/>
+			<img src="god.png"/>
+			<img src="god.png"/>
+			<img src="god.png"/>
+		</div>
+		<hr/>
+		<div id="field2">
+			<img src="god.png"/>
+			<img src="god.png"/>
+			<img src="god.png"/>
+			<img src="god.png"/>
+			<img src="god.png"/>
+			<img src="god.png"/>
+		</div>
+		<br/>
+		<div id="bar"></div>
+		<label for="select1">적 : </label>
+		<select id="select1">
+			<option value="1" selected>1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+		</select>
+		<br/>
+		<label for="select1">아군 : </label>
+		<select id="select2">
+			<option value="1" selected>1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+		</select>
+		<br/>
+		<div id="card"></div>
+		<br/>
+		<h3 class="gameBtn" id="gameBtn1">시작</h3>
+	</div>
+
+	<script src="jquery.js"></script>
+	<script type="text/javascript" src="javascript.js"></script>
+</body>

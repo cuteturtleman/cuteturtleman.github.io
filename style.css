@@ -1,0 +1,102 @@
+		@font-face {
+			font-family: 'Noto Sans KR';
+			font-style: normal;
+			font-weight: 300;
+			src: url(NotoSansCJKkr-Light.otf) format('opentype');
+		}
+
+		* {
+			font-family: 'Noto Sans KR', sans-serif;
+			margin: 0px;
+			padding: 0px;
+		}
+
+
+		html {
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+		}
+
+		body {
+			width: 100%;
+			height: 100%;
+			margin: 0px;
+		}
+
+		#gameDiv label {
+			display: inline-block;
+		}
+
+		#gameDiv {
+			width: 100%;
+			height: 100%;
+			text-align: center;
+			margin-top: 5%;
+			text-align: center;
+		}
+
+		#gameDiv > nav {
+			height: 60%;
+		}
+
+		#gameDiv > nav > ul {
+			list-style-type: none;
+			width: 100%;
+			height: 60%;
+			padding: 0px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		#gameDiv > nav > ul > li {
+			width: 20%;
+			display: inline-block;
+		}
+
+		#gameDiv img {
+			cursor: pointer;
+		}
+
+		label {
+			margin-top: 10px;
+		}
+
+		h2, h3 {
+			font-weight: normal;
+		}
+
+		.gameBtn {
+			display: inline-block;
+			width: 200px;
+			height: 40px;
+			border-radius: 5px;
+			border: 1px solid #3668a7;
+			line-height: 40px;
+			margin-right: 20px;
+			color: #3668a7;
+			cursor: pointer;
+		}
+
+		#field1, #field2 {
+			background-color: lightgray;
+			width: 600px;
+			height: 120px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		#field1 img, #field2 img {
+			height: 100px;
+			margin-top: 10px;
+		}
+
+		hr {
+			width: 600px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		#field1 img:not(:nth-child(1)), #field2 img:not(:nth-child(1)) {
+			display: none;
+		}
