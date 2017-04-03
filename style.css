@@ -63,7 +63,7 @@
 		}
 
 		h2, h3 {
-			font-weight: normal;
+			font-weight: bold;
 		}
 
 		.gameBtn {
@@ -73,9 +73,9 @@
 			border-radius: 5px;
 			border: 1px solid #3668a7;
 			line-height: 40px;
-			margin-right: 20px;
 			color: #3668a7;
 			cursor: pointer;
+			margin-top: 30px;
 		}
 
 		#field1, #field2 {
@@ -89,6 +89,7 @@
 		#field1 img, #field2 img {
 			height: 100px;
 			margin-top: 10px;
+			filter: grayscale(100%);
 		}
 
 		hr {
@@ -99,4 +100,21 @@
 
 		#field1 img:not(:nth-child(1)), #field2 img:not(:nth-child(1)) {
 			display: none;
+		}
+
+		#card1, #card2, #card3 {
+			width: 200px;
+			height: 300px;
+			margin-left: auto;
+			margin-right: auto;
+			opacity: 0;
+			background-size: 200px 300px;
+			display: inline-block;
+			cursor: pointer;
+		}
+
+		.cardname {
+			width: 200px;
+			margin: 0px;
+			opacity: 0;
 		}

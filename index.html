@@ -30,6 +30,7 @@
 		<div id="bar"></div>
 		<label for="select1">적 : </label>
 		<select id="select1">
+			<option value="0">0</option>
 			<option value="1" selected>1</option>
 			<option value="2">2</option>
 			<option value="3">3</option>
@@ -39,8 +40,9 @@
 			<option value="7">7</option>
 		</select>
 		<br/>
-		<label for="select1">아군 : </label>
-		<select id="select2">
+		<label for="select2">아군 : </label>
+		<select id="select2">
+			<option value="0">0</option>
 			<option value="1" selected>1</option>
 			<option value="2">2</option>
 			<option value="3">3</option>
@@ -49,7 +51,14 @@
 			<option value="6">6</option>
 		</select>
 		<br/>
-		<div id="card"></div>
+		<div id="cardDiv">
+			<div id="card1"></div>
+			<div id="card2"></div>
+			<div id="card3"></div>
+		</div>
+		<label class="cardname" for="card1" id="label1">카드 이름</label>
+		<label class="cardname" for="card2" id="label2">카드 이름</label>
+		<label class="cardname" for="card3" id="label3">카드 이름</label>
 		<br/>
 		<h3 class="gameBtn" id="gameBtn1">시작</h3>
 	</div>
